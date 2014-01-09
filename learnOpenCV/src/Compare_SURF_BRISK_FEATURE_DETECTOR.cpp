@@ -12,7 +12,7 @@ using namespace cv;
 void useSurfDetector(Mat img_1, Mat img_2, vector<DMatch> good_matches);
 void useBriskDetector(Mat img_1, Mat img_2, vector<DMatch> good_matches);
 int main()
-{   
+{   // test git hub change
 	Mat img_1, img_2;
   //image = imread("lena.jpg",1);
 	img_1= imread("img1.ppm", CV_LOAD_IMAGE_GRAYSCALE );
